@@ -3,7 +3,8 @@ pipeline {
     when {
         expression {
             BRANCH_NAME == 'master'
-            
+        }
+    }    
     stages {
        stage ('Checkout') {
          steps {
