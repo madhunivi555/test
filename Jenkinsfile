@@ -7,5 +7,12 @@ pipeline {
          }
        }
     }
+    post  {
+        always {
+         
+        }
+        failure {
+        }    
+   }    
 }    
     
