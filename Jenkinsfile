@@ -7,12 +7,12 @@ pipeline {
          }
        }
     }
-    post  {
-        always {
+post  {
+  always {
          
-        }
-        failure {
-        }    
-   }    
+  }
+  failure {
+  }    
+ }    
 }    
     
