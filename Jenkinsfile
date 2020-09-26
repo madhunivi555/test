@@ -1,14 +1,16 @@
-node {
-    stage ('Compile') {
+pipeline {
+    agent any 
+    stages
+      stage ('Compile') {
         echo "Successfully Compile excuted"
-    }    
-    stage ('Build') {
+      }    
+      stage ('Build') {
         echo "Successfully Build excuted"
-    }
-    stage ('Test') {
+      }
+      stage ('Test') {
         echo "Successfully Test excuted"
-    }
-    stage ('Deploy') {
+     }
+     stage ('Deploy') {
         echo "Successfully Deploy excuted"
     }
-}    
+ 
