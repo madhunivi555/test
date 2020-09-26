@@ -2,16 +2,24 @@ pipeline {
     agent any 
     stages {
       stage ('Compile') {
-        echo "Successfully Compile excuted"
+          steps {   
+             echo "Successfully Compile excuted"
+         } 
       }    
       stage ('Build') {
-        echo "Successfully Build excuted"
+          steps {
+            echo "Successfully Build excuted"
+          }    
       }
       stage ('Test') {
+          steps {
         echo "Successfully Test excuted"
+          }    
      }
      stage ('Deploy') {
+         steps {
         echo "Successfully Deploy excuted"
+         }    
     }
   } 
 }    
