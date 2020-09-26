@@ -1,6 +1,6 @@
 pipeline {
     agent any 
-    stages
+    stages {
       stage ('Compile') {
         echo "Successfully Compile excuted"
       }    
@@ -13,4 +13,5 @@ pipeline {
      stage ('Deploy') {
         echo "Successfully Deploy excuted"
     }
-} 
+  } 
+}    
