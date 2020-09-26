@@ -13,4 +13,4 @@ pipeline {
      stage ('Deploy') {
         echo "Successfully Deploy excuted"
     }
- 
+} 
